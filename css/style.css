@@ -6,12 +6,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 20px auto;
   min-height: 100vh;
   overflow: hidden;
   color: white;
   background-image: url("../img/background astronomi.png");
   background-size: cover;
+  
 }
 
 .ready-container {
