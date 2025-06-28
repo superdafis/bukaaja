@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Bubblegum Sans";
+  src: url("../font/Bubblegum_Sans/BubblegumSans-Regular.ttf") format("truetype");
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+  overflow: hidden;
+  color: white;
+  background-image: url("../img/background astronomi.png");
+  background-size: cover;
+}
+
+.ready-container {
+  padding: 50px 50px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: #0e5bd6;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 5px rgb(62, 170, 207);
+}
+.ready-container .ready h3 {
+  margin-bottom: 3rem;
+  font-family: arial;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.ready-container .ready button {
+  padding: 0.3rem 1.2rem;
+  margin: 0 10px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(18, 71, 186);
+  color: white;
+}
+.ready-container .ready button a {
+  color: white;
+  text-decoration: none;
+}
+
+.hbd-container {
+  padding: 50px 100px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: #0e5bd6;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 5px rgb(62, 170, 207);
+}
+.hbd-container.animate_animated.animate__backInDown {
+  animation-duration: 1.5s;
+}
+.hbd-container .hbd h1:nth-child(1) {
+  font-family: "Bubblegum Sans";
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: black;
+  font-weight: 500;
+}
+.hbd-container .hbd h1:nth-child(3) {
+  font-family: "Bubblegum Sans";
+  font-size: 2.5rem;
+  color: rgb(0, 69, 207);
+  font-weight: 600;
+}
+.hbd-container .hbd h1:nth-child(3).animate_animated.animate__pulse {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.hbd-container .hbd img {
+  width: 200px;
+  border-radius: 50%;
+  border: 8px solid rgb(0, 98, 255);
+}
+.hbd-container .hbd button {
+  padding: 0.3rem 1.2rem;
+  margin: 0 10px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(18, 71, 186);
+  color: white;
+}
+.hbd-container .hbd button a {
+  color: white;
+  text-decoration: none;
+}
+
+.pesanHBD-container {
+  padding: 50px 100px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 5px rgb(62, 170, 207);
+  margin: 0 50px;
+}
+.pesanHBD-container .pesanHBD p {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pesanHBD-container .pesanHBD button {
+  padding: 0.3rem 1.2rem;
+  margin: 0 10px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(18, 71, 186);
+  color: white;
+}
+.pesanHBD-container .pesanHBD button a {
+  color: white;
+  text-decoration: none;
+}
+
+.gallery-container .judul {
+  display: block;
+  margin: 2rem;
+  text-align: center;
+}
+.gallery-container .judul h2 {
+  text-align: center;
+  font-family: "Bubblegum Sans";
+  font-size: 3rem;
+}
+.gallery-container .judul button {
+  padding: 0.3rem 1.2rem;
+  margin: 0 10px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(18, 71, 186);
+  color: white;
+}
+.gallery-container .judul button a {
+  color: white;
+  text-decoration: none;
+}
+.gallery-container .judul button a {
+  color: white;
+  text-decoration: none;
+}
+.gallery-container .gallery {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.gallery-container .gallery img {
+  width: 300px;
+}
+.gallery-container .gallery img:nth-child(1) {
+  box-shadow: 0 0 20px 5px rgb(255, 75, 75);
+}
+.gallery-container .gallery img:nth-child(2) {
+  box-shadow: 0 0 20px 5px rgb(255, 63, 255);
+}
+.gallery-container .gallery img:nth-child(3) {
+  box-shadow: 0 0 20px 5px rgb(4, 255, 4);
+}
+.gallery-container .gallery img:nth-child(4) {
+  box-shadow: 0 0 20px 9px #a74b00;
+}
+.gallery-container .gallery img:nth-child(5) {
+  box-shadow: 0 0 20px 7px yellow;
+}
+.gallery-container .gallery img:nth-child(6) {
+  box-shadow: 0 0 20px 10px #bf78c4;
+}
+.gallery-container .gallery img:nth-child(7) {
+  box-shadow: 0 0 20px 10px rgb(255, 132, 152);
+}
+.gallery-container .gallery img:nth-child(8) {
+  box-shadow: 0 0 20px 7px rgb(30, 98, 255);
+}
+.gallery-container .gallery img:nth-child(9) {
+  box-shadow: 0 0 20px 7px rgb(0, 217, 255);
+}
+.gallery-container .gallery img:nth-child(10) {
+  box-shadow: 0 0 20px 7px rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */
