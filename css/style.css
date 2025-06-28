@@ -48,7 +48,8 @@ body {
 }
 
 .hbd-container {
-  padding: 50px 100px;
+  width: 300px;
+  padding: 20px;
   height: auto;
   justify-content: center;
   align-items: center;
